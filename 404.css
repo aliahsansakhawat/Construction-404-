@@ -1,0 +1,81 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image:linear-gradient(rgba(70, 74, 92, 0.7),rgba(34, 34, 45, 0.7)),url(construction1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+
+}
+
+.content{
+    margin-left: 8%;
+    padding: 10%;
+} 
+
+.content p{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #ffffff;   
+}
+
+.error404{
+   text-align: center;
+}
+.error404 h1{
+    font-size: 300px;
+    color: rgba(255,167,34,255);
+    margin: 2%;
+}
+
+.error404 p{
+    margin: 20px;
+
+}
+.serchbox{
+ /* height: 100vh; */
+ cursor: pointer;
+ padding: 10px 20px;
+ background: #fff;
+}
+
+
+.serch{
+    padding: 1%;
+    width: 25%;
+    border: none;
+    background-color: rgb(242, 240, 240);
+}
+
+
+
+
+.button{
+    height: 40px;
+    width: 150px;
+    align-items: center;
+    color: #f4f4f4;
+    background-color: black;
+    /* padding-left: 22px;
+     */
+     justify-content: center;
+     justify-content: center;
+     /* margin-left: 100px; */
+     margin-top: 15px;
+}
+
+.button:hover{background-color: rgba(275,167,34,255);
+    border: none;
+    border-radius: 20%;
+}
